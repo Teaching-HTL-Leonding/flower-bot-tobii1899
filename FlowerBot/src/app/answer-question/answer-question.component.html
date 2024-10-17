@@ -1,0 +1,22 @@
+<h2>Answer Question</h2>
+
+<form>
+  <label for="question">Question</label>
+  <div>
+    <input type="text" list="suggestions" name="question" id="question"
+    placeholder="Enter your question here" [(ngModel)]="question"/>
+
+    <datalist id="suggestions">
+      <option>Are dolphin fish?</option>
+      <option>Give me a checklist for a good body-weight training</option>
+      <option>Are birds from the government?</option>
+    </datalist>
+
+    <button type="submit" (click)="answerQuestion()" id="answerBtn">Answer</button>
+  </div>
+</form>
+
+<button (click)="restart()" id="restart">Restart conversation</button>
+
+<!-- <markdown [data]="getMarkdownContent()"></markdown> -->
+<div id="dialog"></div>
