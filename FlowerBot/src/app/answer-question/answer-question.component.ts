@@ -46,7 +46,9 @@ export class AnswerQuestionComponent {
     const dialog = document.getElementById('dialog') as HTMLDivElement;
     dialog.innerHTML = '';
 
-    for (const [question, answer] of this.list()) {
+    const entries = this.list().reverse();
+
+    for (const [question, answer] of entries) {
       const me = document.createElement('h2');
       me.innerText = 'Question';
       me.style.textAlign = 'right';
