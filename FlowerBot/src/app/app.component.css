@@ -1,0 +1,7 @@
+#navbar {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}

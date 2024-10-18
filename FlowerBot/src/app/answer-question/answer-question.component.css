@@ -1,0 +1,32 @@
+form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form div {
+  display: flex;
+}
+
+form div input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+form div input:hover {
+  background-color: #f0f0f0;
+}
+
+form div button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+form div button:hover {
+  background-color: #f0f0f0;
+}
+
+#restart {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+}
